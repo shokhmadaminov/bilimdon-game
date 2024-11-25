@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { MainLayout } from "./layouts"
 
 // from pages
-import {Home} from "./pages"
+import {Categories, Home} from "./pages"
 
 function App() {
 
@@ -17,6 +17,10 @@ function App() {
         {
           index: true,
           element: <Home/>
+        },
+        {
+          path: '/categories',
+          element: <Categories/>
         },
       ]
     },

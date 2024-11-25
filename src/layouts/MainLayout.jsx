@@ -7,7 +7,7 @@ function MainLayout() {
   return (
     <>
         <Navbar/>
-        <main className="grow">
+        <main className="grow py-10">
             <Outlet/>
         </main>
         <Footer/>
