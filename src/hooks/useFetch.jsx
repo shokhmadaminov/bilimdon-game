@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react"
 
-const API = "https://json-api.uz/api/project/bilimdon/"
+// const API = "https://json-api.uz/api/project/bilimdon/"
+const API = "http://localhost:3000/"
 
 function useFetch(category) {
     const [data, setData] = useState(null)

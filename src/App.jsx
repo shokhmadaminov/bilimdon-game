@@ -1,3 +1,5 @@
+import React from "react"
+
 // from react router dom
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
 
@@ -5,7 +7,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import { MainLayout } from "./layouts"
 
 // from pages
-import {Categories, Home} from "./pages"
+import {Home} from "./pages"
+const Categories = React.lazy(()=> import("./pages/Categories"))
+const Game = React.lazy(()=> import("./pages/Game"))
 
 function App() {
 
@@ -20,7 +24,15 @@ function App() {
         },
         {
           path: '/categories',
-          element: <Categories/>
+          element: <React.Suspense fallback={<div>Loading...</div>}>
+            <Categories />
+          </React.Suspense>
+        },
+        {
+          path: '/game',
+          element: <React.Suspense fallback={<div>Loading...</div>}>
+            <Game/>
+          </React.Suspense>
         },
       ]
     },

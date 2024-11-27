@@ -1,0 +1,36 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "title": "Uy Hayvonlari",
+            "category": "domestic_animals",
+            "description": "Uy hayvonlarini nomini topishingiz kerak!"
+        },
+        {
+            "id": 2,
+            "title": "Yovvoyi Hayvonlar",
+            "category": "wild_animals",
+            "description": "Yovvoyi hayvonlarni nomini topishingiz kerak!"
+        },
+        {
+            "id": 3,
+            "title": "Kinofilmlar",
+            "category": "movies",
+            "description": "Kinofilmlarni nomini topishingiz kerak!"
+        }
+    ],
+    "movies": [
+        {
+            "id": 1,
+            "answer": "Terminal",
+            "category": "movies",
+            "question": " Stiven Spilberg rejissyorligida 2004-yilda suratga olingan, Komediya-Drama janiridagi amerika filmi. Filmda bosh rollarni Tom Hanks, Catherine Zeta-Jones va Stanley Tucci ijro etishgan."
+        },
+        {
+            "id": 2,
+            "answer": "Titanik",
+            "category": "movies",
+            "question": "Filmning ilk namoyishi 1997-yilning 1-noyabrida boʻlib oʻtgan. Film ham tijoriy, ham tanqidiy jihatdan muvaffaqiyat qozongan. Koʻplab yutuqlarga, jumladan, 14 marotaba Oscarga nomzod qilib koʻrsatilgan; ularning 11 tasida gʻolib boʻlgan. Film kinoprokatlarda umumjahon boʻylab $2,2 milliardan ortiq mablagʻ toʻplagan va tarixdagi uchinchi eng kassabop filmga aylangan"
+        }
+    ]
+}
